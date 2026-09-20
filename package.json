@@ -1,0 +1,40 @@
+{
+  "name": "dealmap",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.15.1",
+  "scripts": {
+    "dev": "next dev --turbopack -p 4399",
+    "build": "next build",
+    "start": "next start -p 4399",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "zustand": "^5.0.0",
+    "@radix-ui/react-dialog": "^1.1.0",
+    "@radix-ui/react-collapsible": "^1.1.0",
+    "lucide-react": "^0.468.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.0.0",
+    "sonner": "^2.0.0",
+    "@pastel-palette/tailwindcss": "latest"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tailwindcss": "^4.0.0",
+    "@tailwindcss/postcss": "^4.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^15.5.0",
+    "@eslint/eslintrc": "^3.0.0",
+    "prettier": "^3.6.0"
+  },
+  "type": "module"
+}
